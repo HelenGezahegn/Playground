@@ -9,13 +9,23 @@ class MyApp extends StatelessWidget {
     final wordPair = WordPair.random();
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.purple[900]),
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Wordpair Generator')
-      ),      
-      body: Center(
-        child: Text(wordPair.asPascalCase)
-      ))
+      home: RandomWords()
+    );
+  }
+}
+
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => RandomWordsState();
+}
+
+class RandomWordsState extends State<RandomWords> {
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Text('Hello'),
+      appBar: AppBar(
+        title: Text('Wordpair Generator')
+      )
     );
   }
 }
