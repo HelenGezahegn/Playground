@@ -34,7 +34,7 @@
             ...
      }
 - Like React, it contains stateless (immutable states) and stateful (mutable states) widgets.
-- The skeleton code of a widget: 
+- The skeleton code of a **statless** widget: 
     - [property](https://api.flutter.dev/flutter/material/MaterialApp-class.html#instance-properties) can be home, route, etc.
     - [MaterialComponent](https://flutter.dev/docs/development/ui/widgets/material) can be Text, Button, etc.
     - `@override` is not required but is added for readability.
@@ -51,6 +51,31 @@
             )
         }
     } 
+ ```
+ - The skeleton code of a **stateful** widget:
+ ```dart
+
+ // Define the stateful widget
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => RandomWordsState();
+}
+
+// Define the state for the stateful widget
+class RandomWordsState extends State<RandomWords> {
+  Widget _buildList() {
+    ...
+  }
+
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: _buildList(),
+      appBar: AppBar(
+        title: Text('Wordpair Generator')
+      )
+    );
+  }
+}
  ```
 
  ## Properties
