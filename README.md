@@ -1,3 +1,8 @@
 # Playground
-* Purpose: To play around and test with Flutter and Firebase
-* Tutorial: https://flutter.dev/docs/get-started/install/macos
+#### Purpose 
+To play around and test/learn with Flutter and Firebase.
+#### Approach
+Each branch of this repo will represent a different application that was completed either through a tutorial or personal exploration. More details on the branches contents are below.
+#### Branches
+- wordpairGeneratorApp
+   - [Flutter Crash Course](https://www.youtube.com/watch?v=1gDhl4leEzA) from TraversyMedia.

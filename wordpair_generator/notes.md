@@ -26,11 +26,11 @@
 - Common ones are:
   - [english_words](https://pub.dev/packages/english_words)
 
-
 #### Operators
 - `~/` is division returning an int.
 - `is` returns True if the object has the specified type.
 - `as` to cast types.
+
 
 ## React Similiarities
 - However:
@@ -42,6 +42,7 @@
         return
             ...
      }
+  ```
 - Like React, it contains stateless (immutable states) and stateful (mutable states) widgets.
 - The skeleton code of a **statless** widget: 
     - [property](https://api.flutter.dev/flutter/material/MaterialApp-class.html#instance-properties) can be home, route, etc.
@@ -63,8 +64,7 @@
  ```
  - The skeleton code of a **stateful** widget:
  ```dart
-
- // Define the stateful widget
+// Define the stateful widget
 class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => RandomWordsState();
