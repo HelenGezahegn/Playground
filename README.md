@@ -8,3 +8,7 @@ Each branch of this repo will represent a different application that was complet
    - _What_: List random word pairs using the dart package `english_words` and display favourite word pairs.
    - _Tutorial:_ [Flutter Crash Course](https://www.youtube.com/watch?v=1gDhl4leEzA) from TraversyMedia.
      > <img src="./wordpair_generator/demo.gif" alt="A demo of the WordPair Generator app" width="350px"/>
+- branch: `bottomNavigationApp`
+  - _What_: Implement a bottom navigation that changes the screen colour depending on the page selected.
+  - _Tutorial_: [How to use Flutter to build an app with bottom navigation](https://willowtreeapps.com/ideas/how-to-use-flutter-to-build-an-app-with-bottom-navigation) from Joseph Cherry
+  
