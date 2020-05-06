@@ -11,4 +11,5 @@ Each branch of this repo will represent a different application that was complet
 - branch: `bottomNavigationApp`
   - _What_: Implement a bottom navigation that changes the screen colour depending on the page selected.
   - _Tutorial_: [How to use Flutter to build an app with bottom navigation](https://willowtreeapps.com/ideas/how-to-use-flutter-to-build-an-app-with-bottom-navigation) from Joseph Cherry
+    > <img src="./bottom_navigation/demo.gif" alt="A demo of the Bottom Navigation App" width="350px" />
   
